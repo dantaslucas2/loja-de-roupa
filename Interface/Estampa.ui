@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form_estampa</class>
+ <widget class="QWidget" name="Form_estampa">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>268</width>
+    <height>165</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Estampa</string>
+  </property>
+  <widget class="QLabel" name="label_nome">
+   <property name="geometry">
+    <rect>
+     <x>11</x>
+     <y>50</y>
+     <width>121</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Nome da estampa:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="LE_nome">
+   <property name="geometry">
+    <rect>
+     <x>127</x>
+     <y>50</y>
+     <width>121</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="PB_salvar">
+   <property name="geometry">
+    <rect>
+     <x>11</x>
+     <y>111</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Salvar</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="PB_cancelar">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>110</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Cancelar</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

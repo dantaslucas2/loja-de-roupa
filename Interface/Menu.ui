@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form_menu</class>
+ <widget class="QWidget" name="Form_menu">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>246</width>
+    <height>247</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Menu</string>
+  </property>
+  <widget class="QSplitter" name="splitter">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>42</y>
+     <width>151</width>
+     <height>171</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
+   </property>
+   <widget class="QPushButton" name="PB_venda">
+    <property name="text">
+     <string>Registrar Venda</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="PB_cliente">
+    <property name="text">
+     <string>Registrar Cliente</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="PB_historico">
+    <property name="text">
+     <string>Historico de vendas</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="PB_financeiro">
+    <property name="text">
+     <string>Financeiro</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

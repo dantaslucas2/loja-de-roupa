@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form_historico</class>
+ <widget class="QWidget" name="Form_historico">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>463</width>
+    <height>346</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Histórico de compras</string>
+  </property>
+  <widget class="QListView" name="listView">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>441</width>
+     <height>271</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="PB_excluir">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>300</y>
+     <width>141</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Excluir</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="PB_alterar">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>300</y>
+     <width>141</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Alterar</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="PB_voltar">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>300</y>
+     <width>141</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Voltar</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

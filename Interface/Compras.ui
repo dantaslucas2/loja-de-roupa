@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form_compras</class>
+ <widget class="QWidget" name="Form_compras">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>667</width>
+    <height>452</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Compras</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="8" column="0">
+    <widget class="QLabel" name="LB_data">
+     <property name="text">
+      <string>Data do pedido:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="10" column="0">
+    <widget class="QLabel" name="label_valor">
+     <property name="text">
+      <string>Valor total:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="11" column="2">
+    <widget class="QCheckBox" name="CB_debito">
+     <property name="text">
+      <string>Debito</string>
+     </property>
+    </widget>
+   </item>
+   <item row="11" column="3">
+    <widget class="QCheckBox" name="CB_credito">
+     <property name="text">
+      <string>Credito</string>
+     </property>
+    </widget>
+   </item>
+   <item row="6" column="0">
+    <widget class="QLabel" name="label_local">
+     <property name="text">
+      <string>Local de entrega:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="0">
+    <widget class="QLabel" name="label_bairro">
+     <property name="text">
+      <string>Bairro:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="13" column="6">
+    <widget class="QPushButton" name="PB_cancelar">
+     <property name="text">
+      <string>Cancelar</string>
+     </property>
+    </widget>
+   </item>
+   <item row="7" column="0">
+    <widget class="QLabel" name="label_frete">
+     <property name="text">
+      <string>Frete:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="0" rowspan="4" colspan="6">
+    <widget class="QListView" name="LW_itens"/>
+   </item>
+   <item row="5" column="5">
+    <widget class="QPushButton" name="PB_add_bairro">
+     <property name="text">
+      <string>Adicionar</string>
+     </property>
+    </widget>
+   </item>
+   <item row="7" column="5">
+    <widget class="QCheckBox" name="CB_frete">
+     <property name="text">
+      <string>Cobrar</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="1" colspan="4">
+    <widget class="QComboBox" name="CB_cliente"/>
+   </item>
+   <item row="4" column="5">
+    <widget class="QPushButton" name="PB_add_cliente">
+     <property name="text">
+      <string>Adicionar</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="0">
+    <widget class="QLabel" name="label_cliente">
+     <property name="text">
+      <string>Cliente:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="7" column="1" colspan="4">
+    <widget class="QLineEdit" name="LE_frete"/>
+   </item>
+   <item row="10" column="1" colspan="4">
+    <widget class="QLineEdit" name="LE_valor"/>
+   </item>
+   <item row="5" column="1" colspan="4">
+    <widget class="QComboBox" name="CB_bairro"/>
+   </item>
+   <item row="6" column="1" colspan="4">
+    <widget class="QLineEdit" name="LE_local"/>
+   </item>
+   <item row="11" column="0">
+    <widget class="QLabel" name="label_pg">
+     <property name="text">
+      <string>Metodo de PG.</string>
+     </property>
+    </widget>
+   </item>
+   <item row="11" column="1">
+    <widget class="QCheckBox" name="CB_dinheiro">
+     <property name="text">
+      <string>Dinheiro</string>
+     </property>
+    </widget>
+   </item>
+   <item row="11" column="4">
+    <widget class="QLineEdit" name="LB_vezes">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="6">
+    <widget class="QPushButton" name="PB_menos_item">
+     <property name="text">
+      <string>Remover</string>
+     </property>
+    </widget>
+   </item>
+   <item row="13" column="5">
+    <widget class="QPushButton" name="PB_salvar">
+     <property name="text">
+      <string>Salvar</string>
+     </property>
+    </widget>
+   </item>
+   <item row="11" column="5">
+    <widget class="QLabel" name="label_vezes">
+     <property name="text">
+      <string>X Vezes</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="6">
+    <widget class="QPushButton" name="PB_add_item">
+     <property name="text">
+      <string>Adicionar</string>
+     </property>
+    </widget>
+   </item>
+   <item row="8" column="1" colspan="3">
+    <widget class="QDateEdit" name="dateEdit">
+     <property name="alignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item row="8" column="4">
+    <widget class="QCheckBox" name="CB_data">
+     <property name="text">
+      <string>Data atual</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
